@@ -2,7 +2,7 @@
     "name": "Auto Merge",
     "version": "1.0",
     "description": "Use to refresh & then merge from github automatically",
-    "permissions": ["declarativeContent", "tabs", "*://*/*"],
+    "permissions": ["tabs", "*://*/*"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
