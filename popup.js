@@ -1,8 +1,10 @@
-let changeColor = document.getElementById('changeColor');
+let mergeButton = document.getElementById('mergeButton');
 
-changeColor.onclick = function(element) {
-    let color = element.target.value;
-    chrome.tabs.query(undefined, function(tabs) {
+console.log("Setting Clicker");
+mergeButton.onclick = function(element) {
+    console.log("button clicked");
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        console.log("tabs: " + chrome.tabs);
         for(var i = 0; i < tabs.length; i++) {
             chrome.tabs.executeScript(
                 tabs[i].id,
@@ -11,8 +13,3 @@ changeColor.onclick = function(element) {
         }
     });
 };
-
-chrome.storage.sync.get('color', function(data) {
-    changeColor.style.backgroundColor = data.color;
-    changeColor.setAttribute('value', data.color);
-});
