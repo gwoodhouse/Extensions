@@ -1,2 +1,2 @@
 
-document.body.style.backgroundColor = 'red';
+chrome.extension.getBackgroundPage().beginRefreshAndMerge();

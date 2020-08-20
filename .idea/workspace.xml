@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="acf94069-af34-43f2-ba1d-a134658ad0d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extensions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Extensions.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/tabScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,9 @@
       <updated>1597241779120</updated>
       <workItem from="1597241782197" duration="3681000" />
       <workItem from="1597342701268" duration="2174000" />
-      <workItem from="1597346854126" duration="949000" />
+      <workItem from="1597346854126" duration="2598000" />
+      <workItem from="1597846308707" duration="173000" />
+      <workItem from="1597846919968" duration="3508000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1597343683191</created>
@@ -88,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597343683191</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update to remove chaff">
+      <created>1597347840149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597347840149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed to work on all tabs. No fluff.">
+      <created>1597348849875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597348849875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,13 +113,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Update to remove chaff" />
+    <MESSAGE value="Fixed to work on all tabs. No fluff." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed to work on all tabs. No fluff." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1597343682813">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1597348849555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597343682813" />
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597348849555" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1597342716692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -115,10 +134,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597343602634" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1597343690169">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1597348853848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597343690169" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597348853848" />
     <state x="572" y="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1597343584023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
